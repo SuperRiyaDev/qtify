@@ -1,0 +1,5 @@
+.cardSection{
+    color: var(--white-color);
+    box-sizing: border-box;
+    padding: 10px;
+}

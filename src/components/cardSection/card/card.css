@@ -1,0 +1,31 @@
+.card{
+    /* background-color: aliceblue; */
+    width: 159px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-text{
+    background-color: var(--black-color);
+    color: var(--black-color);
+    padding: 0px;
+    margin: 0px !important;
+    width: fit-content;
+    padding: 0px 10px;
+    margin: 5px 5px !important;
+    border-radius: 10px;
+}
+.first-grp{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.follow-text span{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    display: inline;
+}
+
+.title-text{
+    color: var(--white-color);
+}
