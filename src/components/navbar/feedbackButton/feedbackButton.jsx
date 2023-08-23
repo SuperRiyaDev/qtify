@@ -3,7 +3,7 @@ import "./feedbackButton.css"
 
 const FeedbackButton = () => {
   return (
-    <button id='button'>Feedback Form</button>
+    <button id='feed-button'>Feedback Form</button>
   )
 }
 

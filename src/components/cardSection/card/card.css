@@ -1,8 +1,10 @@
-.card{
+.vid-card{
     /* background-color: aliceblue; */
+    /* height: 200px; */
     width: 159px;
     padding: 5px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -19,6 +21,11 @@
 .first-grp{
     background-color: aliceblue;
     border-radius: 5px;
+}
+.first-grp img{
+    height: 205px;
+    width: 159px;
+    border-radius: 5px 5px 0px 0px;
 }
 .follow-text span{
     background-color: var(--black-color);

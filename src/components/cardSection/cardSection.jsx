@@ -1,12 +1,11 @@
 import React from 'react'
-import Card from './card/card'
 import "./cardSection.css"
+import TopAlbum from './topAlbum/topAlbum'
 
 const CardSection = () => {
   return (
     <div className="cardSection">
-        Top Albums
-        <Card />
+        <TopAlbum/>
     </div>
   )
 }

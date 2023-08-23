@@ -1,0 +1,33 @@
+.topAlbum{
+    /* color: var(--white-color); */
+    /* color:white; */
+    /* background-color: aliceblue; */
+    display: flex;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    /* max-height: 400px; */
+    /* transition: max-height 0.3s ease-in-out; */
+}
+
+.flex-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#feed-button {
+  background-color: var(--black-color);
+  color: var(--primary-color);
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  width: 170px;
+  height: 47px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 10px;
+  border: 1px;
+}
+  
+ 

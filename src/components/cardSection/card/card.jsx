@@ -2,17 +2,18 @@ import React from 'react'
 import card from"../../../assests/cardCover.svg"
 import "./card.css"
 
-const Card = () => {
+const Card = ({item}) => {
+  // console.log(item,"from card")
   return (
-    <div className="card">
+    <div className="vid-card">
         <div className="first-grp">
-        <img src={card} alt='card-img'/>
+        <img src={item.image} alt='card-img'/>
         <div className='follow-text'>
-            <span>100M Follows</span>
+            <span>{item.follows} Follows</span>
         </div>
         </div>
         <div className="title-text">
-        <p>New English Songs</p>
+        <p>{item.title}</p>
         </div>
     </div>
   )
